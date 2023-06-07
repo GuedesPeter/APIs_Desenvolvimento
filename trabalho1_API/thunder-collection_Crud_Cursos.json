@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Crud_Cursos",
+    "dateExported": "2023-06-07T12:47:38.293Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "300bc5d7-3921-4b3a-93ab-e484b95aa7ad",
+            "colId": "a091232c-e614-467e-85d4-c8f40f581d80",
+            "containerId": "",
+            "name": "Listar Cursos",
+            "url": "localhost:3000/cursos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-07T11:30:32.224Z",
+            "modified": "2023-06-07T11:30:32.224Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9d81d788-8f7f-4f15-a381-9846b43d0a0d",
+            "colId": "a091232c-e614-467e-85d4-c8f40f581d80",
+            "containerId": "",
+            "name": "Pesquisar Curso",
+            "url": "localhost:3000/cursos/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-07T11:30:54.774Z",
+            "modified": "2023-06-07T12:34:39.459Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dc01e84c-1956-47fc-8bc4-827f35ae8f6b",
+            "colId": "a091232c-e614-467e-85d4-c8f40f581d80",
+            "containerId": "",
+            "name": "Criar Novo Curso",
+            "url": "localhost:3000/cursos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-07T11:31:03.382Z",
+            "modified": "2023-06-07T12:41:52.542Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Power BI\",\n  \"duracao\":\"80Hs\",\n  \"valor\":\"R$ 1450\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "004f8fe1-b727-4c51-8286-efc26c54a725",
+            "colId": "a091232c-e614-467e-85d4-c8f40f581d80",
+            "containerId": "",
+            "name": "Atualizar Curso",
+            "url": "localhost:3000/cursos/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-06-07T11:31:18.643Z",
+            "modified": "2023-06-07T12:42:50.631Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Algorítmos\",\n  \"duracao\":\"230Hs\",\n  \"valor\":\"R$ 2250\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0c07ccac-9bea-4654-88f0-26c2579309b9",
+            "colId": "a091232c-e614-467e-85d4-c8f40f581d80",
+            "containerId": "",
+            "name": "Deletar Curso",
+            "url": "localhost:3000/cursos/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-06-07T11:31:25.995Z",
+            "modified": "2023-06-07T12:33:12.655Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

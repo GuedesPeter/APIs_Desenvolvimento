@@ -1,0 +1,15 @@
+{
+  "name": "trabalho1_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cursos.js",
+  "scripts": {
+    "start": "node cursos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

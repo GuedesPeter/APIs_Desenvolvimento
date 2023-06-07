@@ -1,0 +1,15 @@
+{
+  "name": "aula11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crud_api.js",
+  "scripts": {
+    "start": "node crud_api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
